@@ -14,7 +14,7 @@ steps:
   inputs:
     deploymentScope: 'Resource Group'
     ConnectedServiceName: 'AzureRmPipeline-conn'
-    subscriptionName: '[EnterTheTargetSubscriptionID]'
+    subscriptionName: '8cc247e6-5a1d-40b7-be6c-7d0a8c5ffa87'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'AzureRmPipeline-rg'
     location: 'Southeast Asia'
