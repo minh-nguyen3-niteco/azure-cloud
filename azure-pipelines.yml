@@ -13,10 +13,10 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    ConnectedServiceName: 'AzureRmPipeline-conn'
-    subscriptionName: '8cc247e6-5a1d-40b7-be6c-7d0a8c5ffa87'
+    azureResourceManagerConnection: 'Microsoft Azure Sponsorship(8cc247e6-5a1d-40b7-be6c-7d0a8c5ffa87)'
+    subscriptionId: '8cc247e6-5a1d-40b7-be6c-7d0a8c5ffa87'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'AzureRmPipeline-rg'
+    resourceGroupName: 'niteco-hei-dev'
     location: 'Southeast Asia'
     templateLocation: 'Linked artifact'
     csmFile: 'azuredeploy.json'
